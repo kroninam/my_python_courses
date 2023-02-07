@@ -14,3 +14,17 @@
 num = int(input())
 names_list = [input() for i in range (num)]
 print(names_list)
+
+#3.
+# генератор таблицы
+
+n, m = map(int, input().split())
+a = [list(map(int, input().split())) for i in range (n)]
+
+for i in a:
+    print(i)
+
+# Sample input
+# 2 3
+# 1 2 3
+# 4 5 6
