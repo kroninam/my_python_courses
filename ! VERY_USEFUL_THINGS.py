@@ -28,3 +28,29 @@ for i in a:
 # 2 3
 # 1 2 3
 # 4 5 6
+
+
+# словарь через if-else:
+with open (file_name, 'r') as file:
+    words = {}
+    for i in file.readlines():
+        #print (i.strip())
+        for j in i.strip().split():
+            #print(j)
+            if j.upper() not in words:
+                words[j.upper()] = 1
+            elif j.upper() in words:
+                words[j.upper()] += 1
+print(words)
+
+# методы словаря:
+#setdefault
+for word in [какой-нибудь список]:
+        words.setdefault(word, 0)
+        words[word] += 1
+
+#get
+words[word]  =  words.get(word, 0) + 1
+
+
+
