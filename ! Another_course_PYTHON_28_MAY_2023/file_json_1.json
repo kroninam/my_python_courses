@@ -1,0 +1,24 @@
+[
+    {
+        "first_name": "Oleg",
+        "last_name": "Dean",
+        "certificate": true,
+        "scores": [
+            70,
+            80,
+            90
+        ],
+        "description": "Good job, Greg"
+    },
+    {
+        "first_name": "Wirl",
+        "last_name": "Wood",
+        "certificate": true,
+        "scores": [
+            70,
+            80,
+            90
+        ],
+        "description": "Nicely Done"
+    }
+]
