@@ -1,0 +1,11 @@
+Работа с датой и временем в Python
+
+Об авторе
+
+Антон Щербак автор этого курса.
+
+Вы можете подписаться на некоторые его соцсети:
+
+Телеграм-канал Потраченный код https://t.me/codewaste
+Хабр https://habr.com/ru/users/gardiys/posts/
+GitHub https://github.com/gardiys

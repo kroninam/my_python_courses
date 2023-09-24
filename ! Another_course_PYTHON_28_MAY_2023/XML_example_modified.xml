@@ -8,7 +8,7 @@
             <module2>80</module2>
             <module3>90</module3>
         </scores>
-    </student>
+    <description>Some text for this new element created</description></student>
     <student id="2">
         <firstName>Wirt</firstName>
         <lastName>Wood</lastName>
