@@ -1,0 +1,9 @@
+text = '''name,grade
+Timur,5
+Arthur,4
+Anri,5'''
+
+with open('grades.csv', 'w') as file:
+    file.write(text)
+
+print(csv_columns('grades.csv'))
